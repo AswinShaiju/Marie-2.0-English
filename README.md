@@ -24,7 +24,7 @@ Note to maintainers that all schema changes will be found in the commit messages
 ## IMPORTANT NOTICE:
 
 This project is no longer under active maintenance. Occasional bug fixes may be released, but no new features are scheduled to be added.
-Users of [Lucifer](https://t.me/MrLuciferbot) are encouraged to migrate to [Mia](https://t.me/Miss_miabot), which
+Users of [Lucifer](https://t.me/MrLuciferbot) are encouraged to migrate to [☃ ᴍɪᴀ 🎄](https://t.me/Miss_miabot), which
 is the improved version of this project, written in golang, with scalability in mind.
 
 ## Starting the bot.
