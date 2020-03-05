@@ -28,7 +28,7 @@ def promote(bot: Bot, update: Update, args: List[str]) -> str:
 
     user_id = extract_user(message, args)
     if not user_id:
-        message.reply_text("mension one.... 🤷🏻‍♂.")
+        message.reply_text("You don't seem to be referring to a user🤨.")
         return ""
 
     user_member = chat.get_member(user_id)
@@ -53,7 +53,7 @@ def promote(bot: Bot, update: Update, args: List[str]) -> str:
                           can_pin_messages=bot_member.can_pin_messages,
                           can_promote_members=bot_member.can_promote_members)
 
-    message.reply_text("promoted🧡")
+    message.reply_text("Promoted💝")
     return "<b>{}:</b>" \
            "\n#PROMOTED" \
            "\n<b>Admin:</b> {}" \
@@ -74,12 +74,12 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
 
     user_id = extract_user(message, args)
     if not user_id:
-        message.reply_text("mension one.... 🤷🏻‍♂.")
+        message.reply_text("You don't seem to be referring to a user🤨.")
         return ""
 
     user_member = chat.get_member(user_id)
     if user_member.status == 'creator':
-        message.reply_text("i cant ban creator of the group.... 😬")
+        message.reply_text("This person CREATED the group, how would I demote them😬")
         return ""
 
     if not user_member.status == 'administrator':
@@ -192,14 +192,13 @@ def adminlist(bot: Bot, update: Update):
     administrators = update.effective_chat.get_administrators()
     text = "Admins in *{}*:".format(update.effective_chat.title or "this chat")
     for admin in administrators:
-        user = admin.user
-        status = admin.status
+
         name = "[{}](tg://user?id={})".format(user.first_name + " " + (user.last_name or ""), user.id)
         if user.username:
             name = "[{}](tg://user?id={})".format(user.first_name + (user.last_name or ""), user.id)
         if status == "creator":
-            text += "\n 🔱 Creator:"
-            text += "\n` • `{} \n\n 🔰 Admin:".format(name)
+            text += "\n  🏆Creator:"
+            text += "\n • {} \n\n 🎀 Admin:".format(name)
     for admin in administrators:
         user = admin.user
         status = admin.status
@@ -207,8 +206,7 @@ def adminlist(bot: Bot, update: Update):
         if user.username:
             name = "[{}](tg://user?id={})".format(user.first_name + (user.last_name or ""), user.id)
         if status == "administrator":
-            text += "\n` • `{}".format(name)
-    update.effective_message.reply_text(text, parse_mode=ParseMode.MARKDOWN)
+            text += "\n • {}".format(name)
 
 
 def __chat_settings__(chat_id, user_id):
