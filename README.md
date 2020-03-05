@@ -4,7 +4,7 @@ A modular telegram Python bot running on python3 with an sqlalchemy database.
 Originally a simple group management bot with multiple admin features, it has evolved into becoming a basis for modular
 bots aiming to provide simple plugin expansion via a simple drag and drop.
 
-Can be found on telegram as [Lucifer](https://t.me/MrLuciferbot).
+Can be found on telegram as [😈Lucifer😈](https://t.me/MrLuciferbot).
 
 For questions regarding creating your own bot, please head to [this chat](https://t.me/KeralasBots) where you'll find a
 group of volunteers to help. We'll also help when a database schema changes, and some table column needs to be
@@ -24,7 +24,7 @@ Note to maintainers that all schema changes will be found in the commit messages
 ## IMPORTANT NOTICE:
 
 This project is no longer under active maintenance. Occasional bug fixes may be released, but no new features are scheduled to be added.
-Users of [Lucifer](https://t.me/MrLuciferbot) are encouraged to migrate to [☃ ᴍɪᴀ 🎄](https://t.me/Miss_miabot), which
+Users of [😈Lucifer😈](https://t.me/MrLuciferbot) are encouraged to migrate to [☃ ᴍɪᴀ 🎄](https://t.me/Miss_miabot), which
 is the improved version of this project, written in golang, with scalability in mind.
 
 ## Starting the bot.
