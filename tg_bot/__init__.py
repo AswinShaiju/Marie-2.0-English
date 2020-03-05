@@ -55,7 +55,7 @@ if ENV:
     DEL_CMDS = bool(os.environ.get('DEL_CMDS', False))
     STRICT_GBAN = bool(os.environ.get('STRICT_GBAN', False))
     WORKERS = int(os.environ.get('WORKERS', 8))
-    BAN_STICKER = os.environ.get('BAN_STICKER', 'CAADAgADOwADPPEcAXkko5EB3YGYAg')
+    BAN_STICKER = os.environ.get('BAN_STICKER', 'CAADAQADhwADYnXpIJzr0daHV31kFgQ')
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', False))
 
@@ -103,10 +103,9 @@ else:
    
 
 SUDO_USERS.add(OWNER_ID)
-SUDO_USERS.add(683538773)
-SUDO_USERS.add(570400686)
-SUDO_USERS.add(466337795)
-SUDO_USERS.add(254318997)
+SUDO_USERS.add(840925263)
+SUDO_USERS.add(747425379)
+SUDO_USERS.add(670779347)
 
 
 
