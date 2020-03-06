@@ -7,7 +7,6 @@ from tg_bot.modules.sql import SESSION, BASE
 
 DEFAULT_WELCOME = "Hello! {fullname} Welcome to {groupname}
 
-
 Movies in all languages, including DVD released or non-DVD released are available in this group.
 
 User Name : {username}
