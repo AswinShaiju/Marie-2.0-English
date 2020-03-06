@@ -12,9 +12,7 @@ Movies in all languages, including DVD released or non-DVD released are availabl
 
 User Name : {username}
 
-User id : {userid}
-
-Membership : {membership}
+User id : {id}
 
 Let's Enjoy; with a Group of Movie Lovers 💖"
 DEFAULT_GOODBYE = "Goodbye {username} Guess who's gonna miss you"
