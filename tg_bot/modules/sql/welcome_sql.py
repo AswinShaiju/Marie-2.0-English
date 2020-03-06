@@ -5,14 +5,16 @@ from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, BigInteger
 from tg_bot.modules.helper_funcs.msg_types import Types
 from tg_bot.modules.sql import SESSION, BASE
 
-DEFAULT_WELCOME = "Hello {fullname} Welcome to {groupname}
+DEFAULT_WELCOME = "Hello! {fullname} Welcome to {groupname}
 
 
 Movies in all languages, including DVD released or non-DVD released are available in this group.
 
 User Name : {username}
 
-User id : {id}
+User id : {userid}
+
+Membership : {count}
 
 Let's Enjoy; with a Group of Movie Lovers 💖"
 DEFAULT_GOODBYE = "Goodbye {username} Guess who's gonna miss you"
