@@ -16,7 +16,7 @@ User id : {userid}
 
 Membership : {count}
 
-Let's Enjoy; with a Group of Movie Lovers 💖"
+Let's Enjoy; with a Group of Movie Lovers"
 DEFAULT_GOODBYE = "Goodbye {username} Guess who's gonna miss you"
 
 
