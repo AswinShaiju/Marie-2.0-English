@@ -5,8 +5,8 @@ from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, BigInteger
 from tg_bot.modules.helper_funcs.msg_types import Types
 from tg_bot.modules.sql import SESSION, BASE
 
-DEFAULT_WELCOME = "Hey there {fullname}, and welcome to {groupname} How are you?"
-DEFAULT_GOODBYE = "Goodbye {username} Guess who's gonna miss you"
+DEFAULT_WELCOME = "Hey there {first}, and welcome to {groupname} How are you?"
+DEFAULT_GOODBYE = "Goodbye {name} Guess who's gonna miss you"
 
 
 class Welcome(BASE):
