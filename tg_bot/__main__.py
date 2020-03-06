@@ -22,8 +22,6 @@ Hello {}, my name is {}! if you have any questions about how to use me please gi
 
 im a group manager bot maintained by  [this person](tg://user?id={}).
 
-My future updates will be put into This Channel - @Lucifer_Updates & My Support Group @Mr_Luciferbot.
-
 This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/AswinShaiju/TGbot),
 you can create clone same like me..
 
