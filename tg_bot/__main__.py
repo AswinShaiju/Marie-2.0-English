@@ -18,18 +18,9 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hello {}, my name is {}! if you have any questions about how to use me please give me /help... 
+Hello {} My name is {}! - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
 
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/AswinShaiju/TGbot),
-you can create clone same like me..
-
-For more commands click /help...
-
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
-
-"""
 
 HELP_STRINGS = """
 
