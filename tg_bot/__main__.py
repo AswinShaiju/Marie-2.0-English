@@ -18,7 +18,8 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hello {},My name is {}! - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+Hello {}! My name is {} - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+
 Want to add me to your chat? [Click here!](http://telegram.me/yourbot?startgroup=botstart)
 """
 HELP_STRINGS = """
@@ -426,17 +427,4 @@ def main():
 
         if CERT_PATH:
             updater.bot.set_webhook(url=URL + TOKEN,
-                                    certificate=open(CERT_PATH, 'rb'))
-        else:
-            updater.bot.set_webhook(url=URL + TOKEN)
-
-    else:
-        LOGGER.info("Using long polling.")
-        updater.start_polling(timeout=15, read_latency=4)
-
-    updater.idle()
-
-
-if __name__ == '__main__':
-    LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
-    main()
+                                    certificate
