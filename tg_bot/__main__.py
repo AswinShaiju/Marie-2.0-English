@@ -21,9 +21,8 @@ PM_START_TEXT = """
 Hello there! {}, My name is {} - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
 Want to add me to your chat? [Click here!](http://telegram.me/yourbot?startgroup=botstart)
-
 """
-HELP_STRINGS = """
+HELP_STRINGS = ""
 
 Hello! my name *{}*.
 
